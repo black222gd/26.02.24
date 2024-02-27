@@ -2,7 +2,6 @@
 var tempoFilme = 60;
 // Declara uma variável inicioFilme e inicializa com o valor 0, que será usada para acompanhar o progresso de início do filme.//
 var inicioFilme = 0;
-
 // Inicia um loop for que vai de 0 até o valor de tempoFilme (60 segundos). Ele itera em cada segundo do filme.//
 for (var t = 0; t < tempoFilme; t++){
 //: Define um temporizador que chama uma função de callback após um atraso específico, onde t é o índice do loop multiplicado por 1000 (convertendo segundos em milissegundos). Isso cria uma sequência de atrasos, aumentando a cada iteração do loop.//
